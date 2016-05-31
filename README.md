@@ -10,17 +10,17 @@ An app with a UIWebView and a WKWebView for testing Calabash iOS and Calabash iO
 
 This repository contains a git submodule.  **You must clone with --recursive**.
 
-```
+``` bash
 $ git clone --recursive git@github.com:calabash/ios-webview-test-app.git
 $ cd ios-webview-test-app/CalWebViewApp
 $ bundle
 $ make app-cal
-$ be cucumber
+$ cucumber
 ```
 
 ### Console
 
-```
+``` bash
 $ APP=./CalWebView-cal.app be calabash-ios console
 > start_test_server_in_background
 ```
